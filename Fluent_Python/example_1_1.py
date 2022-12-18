@@ -23,6 +23,11 @@ class FrenchDeck:
     def __getitem__(self, position):
         return self._cards[position]
 
+    def random_choice(self):
+        from random import choice
+
+        return choice(self._cards)
+
 
 if __name__ == "__main__":
     import doctest
