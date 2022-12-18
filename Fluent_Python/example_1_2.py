@@ -28,4 +28,4 @@ if __name__ == "__main__":
     a_vec = Vector(1, 1)
     b_vec = Vector(2, 2)
 
-    print(bool(a_vec))
+    print(a_vec + b_vec)
